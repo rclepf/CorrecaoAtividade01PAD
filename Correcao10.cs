@@ -2,7 +2,7 @@ class Program
 	{
 		public static void Main(string[] args)
 		{
-			Console.Write("Digite o número da casa: ");
+		Console.Write("Digite o número da casa: ");
 	        string numeroCasa = Console.ReadLine();
 	        Console.Write("Digite a rua: ");
 	        string rua = Console.ReadLine();
@@ -16,7 +16,7 @@ class Program
 	        
         	Console.WriteLine("Endereço: " + rua + ", " + numeroCasa+ ", "+bairro+", "+cidade+"/"+estado);
 				
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+		Console.Write("Press any key to continue . . . ");
+		Console.ReadKey(true);
 		}
 	}
