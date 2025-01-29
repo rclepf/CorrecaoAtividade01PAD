@@ -8,7 +8,6 @@ class Program
 	        int idade = int.Parse(Console.ReadLine());
 	        Console.WriteLine("Nome: {0}, Idade: {1}", nome, idade);
 	        Console.WriteLine("Nome: " + nome + ", Idade: " + idade);
-	        Console.WriteLine($"Nome: {nome}, Idade: {idade}");
 			
 		Console.Write("Press any key to continue . . . ");
 		Console.ReadKey(true);
